@@ -181,7 +181,6 @@ ax.set_xticklabels(
 # I really wouldn't do it using python/matplotlib in practice due to how good Tableau is at looking at data.
 # Export train data to csv for Tableau viewing.
 # data.to_csv(os.path.join(out_fldr, "data_train.csv"), index=False)
-# *********************************************************************************************************************
 
 # *********************************************************************************************************************
 # One hot encode for each of the categorical datasets
