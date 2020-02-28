@@ -1,6 +1,6 @@
 # DataIku_Project
 
-## This project was create for DataIku. 
+## This project was create for data from DataIku. 
 
 It uses US census data and aims to predict if a person has and income greater than $50,000.
 
