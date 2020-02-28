@@ -17,7 +17,7 @@ node [shape=box] ;
 6 -> 7 ;
 8 [label="mse = 0.245\nsamples = 187\nvalue = 0.428"] ;
 6 -> 8 ;
-9 [label="class of worker_ Not in universe <= 0.5\nmse = 0.209\nsamples = 6915\nvalue = 0.702"] ;
+9 [label="major industry code_ Not in universe or children <= 0.5\nmse = 0.209\nsamples = 6915\nvalue = 0.702"] ;
 1 -> 9 ;
 10 [label="class of worker_ Private <= 0.5\nmse = 0.048\nsamples = 3286\nvalue = 0.95"] ;
 9 -> 10 ;

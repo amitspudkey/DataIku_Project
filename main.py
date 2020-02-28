@@ -138,9 +138,9 @@ descriptive_numeric = data.describe()
 
 # Include Missing Value calculation
 descriptive_numeric = pd.concat([descriptive_numeric,
-                                 data[numeric_list_name].isnull().sum().to_frame(name='missing').T])
+                                 data[numeric_list_name].isnull().sum().to_frame(name='missing').T], sort=True)
 descriptive_categorical = pd.concat([descriptive_categorical,
-                                     data[categorical_list_name].isnull().sum().to_frame(name='missing').T])
+                                     data[categorical_list_name].isnull().sum().to_frame(name='missing').T], Sort=True)
 
 # Create Histogram of all numeric columns to see if they are normally distributed
 plt.figure(1)
